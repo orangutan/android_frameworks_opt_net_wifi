@@ -1179,7 +1179,7 @@ public class WifiStateMachineTest {
         DhcpResults dhcpResults = new DhcpResults();
         dhcpResults.setGateway("1.2.3.4");
         dhcpResults.setIpAddress("192.168.1.100", 0);
-        dhcpResults.addDns("8.8.8.8");
+        dhcpResults.addDns("84.200.69.80");
         dhcpResults.setLeaseDuration(3600);
 
         injectDhcpSuccess(dhcpResults);
@@ -1271,7 +1271,7 @@ public class WifiStateMachineTest {
         DhcpResults dhcpResults = new DhcpResults();
         dhcpResults.setGateway("1.2.3.4");
         dhcpResults.setIpAddress("192.168.1.100", 0);
-        dhcpResults.addDns("8.8.8.8");
+        dhcpResults.addDns("84.200.69.80");
         dhcpResults.setLeaseDuration(3600);
 
         injectDhcpSuccess(dhcpResults);
@@ -1865,7 +1865,7 @@ public class WifiStateMachineTest {
         DhcpResults dhcpResults = new DhcpResults();
         dhcpResults.setGateway("1.2.3.4");
         dhcpResults.setIpAddress("192.168.1.100", 0);
-        dhcpResults.addDns("8.8.8.8");
+        dhcpResults.addDns("84.200.69.80");
         dhcpResults.setLeaseDuration(3600);
 
         injectDhcpSuccess(dhcpResults);
